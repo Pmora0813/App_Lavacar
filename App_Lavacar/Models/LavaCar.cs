@@ -12,10 +12,15 @@ namespace App_Lavacar.Models
         public int Id { get; set; }
 
         [Required]
-        public Vehiculo vehiculo { get; set; }
+        public Administracion administracion { get; set; }
 
         [Required]
         public Cliente cliente { get; set; }
+
+
+        [Required]
+        public Vehiculo vehiculo { get; set; }
+
 
         [Display(Name ="Lista de Servicios")]
         public List<Servicio> ListaServicios { get; set; }
