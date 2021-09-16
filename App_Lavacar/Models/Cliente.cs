@@ -21,10 +21,5 @@ namespace App_Lavacar.Models
         [Display(Name ="Direccion de Correo")]
         public string Corre { get; set; }
 
-<<<<<<< HEAD
-        //Prueba
-=======
-
->>>>>>> 7287f37715f3f8b07d3ba3a249c7486406984bda
     }
 }
