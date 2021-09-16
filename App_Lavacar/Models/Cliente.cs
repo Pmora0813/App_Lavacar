@@ -21,6 +21,5 @@ namespace App_Lavacar.Models
         [Display(Name ="Direccion de Correo")]
         public string Corre { get; set; }
 
-
     }
 }
