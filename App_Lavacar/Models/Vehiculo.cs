@@ -13,8 +13,10 @@ namespace App_Lavacar.Models
 
         [Required]
         [MaxLength(120)]
+        [Display(Name ="Número de Placa")]
         public string Placa { get; set; }
             
+        [Display(Name ="Marca del Vehículo")]
         public string Marca { get; set; }
 
         [Display(Name ="Descripción")]
